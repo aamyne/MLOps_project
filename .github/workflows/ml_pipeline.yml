@@ -32,5 +32,5 @@ jobs:
       - name: Run Flake8 (linting)
         run: flake8 --exit-zero .
 
-      - name: Run full pipeline
+      - name: Run full ML pipeline
         run: python main.py
